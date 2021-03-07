@@ -12,7 +12,7 @@ with open('Pypoll/Resources/election_data.csv') as csv_file:
             print(f'Column names are {", ".join(row)}')
             line_count += 1
         else:
-            print(f'\t{row[0]')
+            print(f'\t{row[0]}')
             Totalvotes = Totalvotes + int(row[1])
             votes_per_candidate.append(int(row[1]))
             line_count += 1
